@@ -7,5 +7,5 @@ DROP TABLE IF EXISTS indexed_text;
 -- lines of the file
 CREATE TABLE indexed_text (
   id SERIAL PRIMARY KEY,
-  line_text varchar(250)
+  line_text varchar(1000)
 );
